@@ -1,0 +1,32 @@
+{
+  "name": "Primebet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.22",
+    "@tabler/icons": "^3.14.0",
+    "@tabler/icons-vue": "^3.12.0",
+    "bootstrap": "^5.3.3",
+    "intl-tel-input": "^25.3.1",
+    "menu": "^0.2.5",
+    "sass": "^1.77.6",
+    "swiper": "^11.1.10",
+    "v-dropdown": "^3.4.0",
+    "v-dropdown-menu": "^2.0.4",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.1",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
